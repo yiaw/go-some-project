@@ -40,5 +40,6 @@
 7. [mock](https://github.com/golang/mock)
 8. [cobra](https://github.com/spf13/cobra)
 9. [viper](https://github.com/spf13/viper)
+10. [go clean architecture](https://github.com/bxcodec/go-clean-arch)
 
 * * *
