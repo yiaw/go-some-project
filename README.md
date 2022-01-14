@@ -7,34 +7,32 @@
 5.  `grpc-ecosystem/middleware`를 통해 `Server` - `Client` 인증은 `jwt-token`으로 한다.
 6.  `gorm`을 통해 `Database`에 접근한다.`
 7.  `wire`를 통해 `Dependency Injection??` Code를 자동으로 생성 한다.
-8.  `cobra를 통해 `Command Line Intetrace`를 제공 한다.
+8.  `cobra`를 통해 `Command Line Intetrace`를 제공 한다.
 9.  `viper`를 통해 설정 파일 내용을 관리 한다.
 10. `mock`을 통해 `Unit test`를 확인 한다.
 11. `go test` 를 통해서 `test`와 `banch mark test`를 수행 한다.
-
+   
 * * *
-
+   
 # 개발 항목
 ## Server-Client의 채팅 서비스
-## Server TODO list
-| 항목 | 세부 항목 | 구현 여부 |
-|:---:|:---|:---:|
-|유저 관리|회원 가입|[x]|
-|유저 관리|회원 탈퇴|[x]|
-|유저 관리|로그인|[x]|
-|유저 관리|로그 아웃|[x]|
-|유저 관리|친구 추가|[x]|
-|유저 관리|친구 삭제|[x]|
-|채팅방 관리|채팅방 생성|[x]|
-|채팅방 관리|채팅방 삭제|[x]|
-|채팅방 관리|채팅방 조회|[x]|
-|채팅방 관리|채팅방 입장|[x]|
-|채팅방 관리|채팅방 나가기|[x]|
-|채팅방|채팅 메시지 보내기|[x]|
-|채팅방|채팅 메시지 받기|[x]|
-|채팅방|채팅방 방장이 특정 유저 강퇴하기|[x]|
-
+### Server TODO list
+- [ ] 회원 가입
+- [ ] 회원 탈퇴
+- [ ] 로그인
+- [ ] 로그아웃
+- [ ] 친구 추가
+- [ ] 친구 삭제
+- [ ] 채팅방 생성
+- [ ] 채팅방 삭제
+- [ ] 채팅방 조회
+- [ ] 채팅방 입장
+- [ ] 채팅방 나가기
+- [ ] 채팅방 퇴장
+- [ ] 채팅 메시지 라우팅
+   
 * * * 
+   
 # Project 구조 
 | Path | Description |
 |:---|:---|
@@ -45,9 +43,9 @@
 |/go-some-project/api|Open API|
 |/go-some-project/protos|Proto Buf|
 |/go-some-project/build|Dockerfile&&kubernetes yaml|
-
+   
 * * *
-
+   
 # 참고 Github Page
 1. [gorm](https://github.com/go-gorm/gorm)
 2. [grpc-go](https://github.com/grpc/grpc-go)
